@@ -1,29 +1,42 @@
 When would you want to use a remote repository rather than keeping all your work
 local?
 
-    Fill in your answer here
+  You have a backup and it allows for others to collaberate/share code
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+  So that you do it at logical points; you wouldn't want someone else contributing
+  to the project to automatically get pushed onto my workstation as soon as
+  they update github
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    With a fork you are making a copy of someone else's repository into your
+    repository; it's like clone but only done on github.  Clone allows you to
+    make a complete copy of a repository onto your workstation, it could be
+    a remote or a local repository.  A branch is where you name a local commit
+    id by a label; allowing you to create a separate version of the code that
+    you can later merge back in with the master (this is the happy path).
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    So you can see if your local repo and the remote one are currently in sync or
+    not (if not then you made changes since you last communicated with remote).
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    You can use pull requests to post comments/changes to a repository and then
+    the collaberators can review them.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    You can work in a separate branch so that all the work for a specific task
+    is logically grouped together, when you are done you can merge with master, or
+    if you need to revert master back to a prior level after you did it you can (maybe
+    by creating a branch of master (call it GoldenCodeVersion1.0) and then merging
+    your branch into master (for what will be GoldenCodeVersion 1.1).
